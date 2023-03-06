@@ -13,6 +13,9 @@
 		FDEE356929B65C04000A8A93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDEE356729B65C04000A8A93 /* Main.storyboard */; };
 		FDEE356B29B65C13000A8A93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDEE356A29B65C13000A8A93 /* Assets.xcassets */; };
 		FDEE356E29B65C13000A8A93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDEE356C29B65C13000A8A93 /* LaunchScreen.storyboard */; };
+		FDEE357729B6636A000A8A93 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEE357629B6636A000A8A93 /* GreenViewController.swift */; };
+		FDEE357A29B663BE000A8A93 /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEE357929B663BE000A8A93 /* RedViewController.swift */; };
+		FDEE357E29B6723A000A8A93 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEE357D29B6723A000A8A93 /* BlueViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		FDEE356A29B65C13000A8A93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDEE356D29B65C13000A8A93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDEE356F29B65C13000A8A93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDEE357629B6636A000A8A93 /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
+		FDEE357929B663BE000A8A93 /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
+		FDEE357D29B6723A000A8A93 /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,26 @@
 		FDEE356029B65C04000A8A93 /* NavigationController */ = {
 			isa = PBXGroup;
 			children = (
+				FDEE358029B67377000A8A93 /* View Controllers */,
 				FDEE356129B65C04000A8A93 /* AppDelegate.swift */,
-				FDEE356329B65C04000A8A93 /* SceneDelegate.swift */,
 				FDEE356529B65C04000A8A93 /* ViewController.swift */,
-				FDEE356729B65C04000A8A93 /* Main.storyboard */,
+				FDEE356329B65C04000A8A93 /* SceneDelegate.swift */,
 				FDEE356A29B65C13000A8A93 /* Assets.xcassets */,
 				FDEE356C29B65C13000A8A93 /* LaunchScreen.storyboard */,
 				FDEE356F29B65C13000A8A93 /* Info.plist */,
 			);
 			path = NavigationController;
+			sourceTree = "<group>";
+		};
+		FDEE358029B67377000A8A93 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FDEE357629B6636A000A8A93 /* GreenViewController.swift */,
+				FDEE357929B663BE000A8A93 /* RedViewController.swift */,
+				FDEE357D29B6723A000A8A93 /* BlueViewController.swift */,
+				FDEE356729B65C04000A8A93 /* Main.storyboard */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +154,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDEE357A29B663BE000A8A93 /* RedViewController.swift in Sources */,
+				FDEE357729B6636A000A8A93 /* GreenViewController.swift in Sources */,
 				FDEE356629B65C04000A8A93 /* ViewController.swift in Sources */,
 				FDEE356229B65C04000A8A93 /* AppDelegate.swift in Sources */,
+				FDEE357E29B6723A000A8A93 /* BlueViewController.swift in Sources */,
 				FDEE356429B65C04000A8A93 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
